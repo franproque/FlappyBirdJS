@@ -333,11 +333,12 @@ const Telas ={
 
         },
         atualiza(){
-            
-            chao.atualiza();
-            canos.atualiza();
-            flappyBird.atualiza();
             Telas.jogo.desenha();
+            chao.atualiza();
+           
+            flappyBird.atualiza();
+            canos.atualiza();
+            
 
         },
         click(){
